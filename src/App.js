@@ -1,15 +1,16 @@
 import "./App.css";
 import Botao from "./components/botao";
 
-function App() {
+export default function App() {
   return (
     <>
       <h1>Aprendendo React</h1>
       <p>Você ganhou um presente!!!</p>
       <button>clique aqui</button>
-      <Botao></Botao>
+      <Botao texto="emergência"></Botao>
+      <Botao texto="enter" />
+      <Botao />
+      <hr />
     </>
   );
 }
-
-export default App;
