@@ -9,7 +9,7 @@ export default function App() {
       <button>clique aqui</button>
       <Botao texto="emergência"></Botao>
       <Botao texto="enter" />
-      <Botao />
+      <Botao titulo="blabla" />
       <hr />
     </>
   );
