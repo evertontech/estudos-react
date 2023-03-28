@@ -1,5 +1,4 @@
 .botao {
-  background-color: #4caf50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -17,3 +16,10 @@
   color: red;
 }
 
+.verde {
+  background-color: green;
+}
+
+.vermelho {
+  background-color: red;
+}

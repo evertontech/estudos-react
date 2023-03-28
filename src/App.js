@@ -7,9 +7,10 @@ export default function App() {
       <h1>Aprendendo React</h1>
       <p>Você ganhou um presente!!!</p>
       <button>clique aqui</button>
-      <Botao texto="emergência"></Botao>
-      <Botao texto="enter" />
-      <Botao titulo="blabla" />
+      <Botao texto="botão 1"></Botao>
+      <Botao titulo="Título do botão 2" cor=""/> 
+      <Botao titulo="Título do botão 3"  texto="botão 3" cor="vermelho"/>
+      <Botao texto="botão 4" titulo="Título do botão 4" cor="verde"/>
       <hr />
     </>
   );
