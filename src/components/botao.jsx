@@ -1,8 +1,8 @@
 import styles from "./botao.module.css";
 
-export default function Botao(dados) {
-  const textoDoBotao = dados.texto || "ok";
-  const textoDoTitulo = dados.titulo || "titulo em branco";
+export default function Botao(props) {
+  const textoDoBotao = props.texto || "ok";
+  const textoDoTitulo = props.titulo || "Título em branco";
 
   return (
     <>
