@@ -8,12 +8,16 @@
 }
 
 .botao:hover {
-  background-color: darkgreen;
-  transition: 0.3s;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .tituloBotao {
   color: red;
+}
+
+.cinza {
+  background-color: darkgray;
 }
 
 .verde {
