@@ -1,13 +1,13 @@
 import styles from "./botao.module.css";
 
-export default function Botao(props) {
-  const cores = {
-    cinza: styles.cinza,
-    verde: styles.verde,
-    vermelho: styles.vermelho,
-  };
+const cores = {
+  cinza: styles.cinza,
+  verde: styles.verde,
+  vermelho: styles.vermelho,
+};
 
-  const textoDoBotao = props.texto || "ok";
+export default function Botao(props) {
+  const textoDoBotao = props.children || "ok";
   const textoDoTitulo = props.titulo || "Título em branco";
   const corDoBotao = cores[props.cor] || cores.cinza;
 
